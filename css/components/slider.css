@@ -38,3 +38,10 @@
 .swiper-slide-5 {
 	background-color: #ffff99;
 }
+
+.glide__slide {
+	padding: 0 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

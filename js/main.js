@@ -6,9 +6,12 @@ $(document).ready(function () {
     // Optional parameters
     direction: 'vertical',
     loop: true,
+    autoplay: true,
 
     pagination: {
       el: '.swiper-pagination',
     }
   })
 });
+
+new Glide('.glide').mount()
